@@ -1,0 +1,324 @@
+.animate__animated {
+  animation-duration: 2s;
+}
+
+#Call {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+}
+#Call span {
+  position: relative;
+  top: 2px;
+}
+#Email {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+}
+#Email span {
+  position: relative;
+  top: 4px;
+}
+
+.navbar-dark {
+    background-color: #512DA8; 
+}
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 120px 30px 50px;
+  background: #9575CD;
+  /*color: floralwhite; */
+  color: floralwhite; 
+}
+.jumbotron-header {
+  /*background: url("../images/welcome2_new.jpg") no-repeat;*/
+  background: url("../images/New2021/home_jumbo_alt.jpg") no-repeat;
+  background-size: cover;
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; 
+}
+
+#Heading {
+  margin-top: 15px;
+}
+
+section {
+  /*background: #9575CD;
+  color: floralwhite;*/
+  position: relative;
+  padding: 15px 0px;
+  margin: 15px 0px;
+}
+
+#WhyUs li {
+  padding: 5px;
+}
+#WhyUsPhoto {
+  min-width: 80%;
+  margin: 10px auto 20px;
+}
+.details {
+  margin-bottom: 20px;
+}
+
+#myCarousel {
+  z-index: 1;
+  margin-top: 10px;
+}
+.carousel-item h5 {
+  margin-top: 10px;
+  font-size: 2em;
+  color: black;
+}
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+#myCarousel a {
+  text-decoration: none;
+}
+.fa-angle-left, .fa-angle-right {
+  color: black;
+  font-size: 70px;
+}
+
+
+/* --------BACKGROUND IMAGE---------- */
+.bg-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+
+.container-last {
+  position: relative;
+  margin-bottom: 20px;
+}
+.row-last {
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.footer {
+  background-color: #D1C4E9;
+  margin-top: 15px;
+}
+.footer li {
+  display: inline;
+}
+#Address {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+#Landline {
+  margin: 0px auto 10px;
+  max-width: 200px;
+}
+#FooterName {
+  width: auto;
+  margin: 0px auto;
+}
+#Partha {
+  margin-top: 15px;
+}
+
+
+
+/* ---------ABOUT US PAGE---------- */
+.jumbotron-about {
+  background: url("../images/aboutus_new.jpg") no-repeat;
+  background-size: cover;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  /*border: 1px solid #ddd;
+  border-top: 0px;*/
+  padding: 10px;
+}
+
+
+
+/* ------------PRODUCTS PAGE------------ */
+.jumbotron-products {
+  /*background: url("../images/products_new.jpg") no-repeat;*/
+  background: url("../images/New2021/products_jumbo_final.jpg") no-repeat;
+  background-size: cover;
+}
+
+.card-body img {
+  width: 100%;
+}
+
+#accordion .card-body .col-6 {
+  margin-bottom: 10px;
+}
+/*#accordion span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  text-align: center;
+  background-color: #9575cd;
+  color: #fff;
+  opacity: .8;
+  margin-left: 25px;
+}*/
+.haha {
+  /*position: absolute;
+  bottom: 0;
+  left: 0;*/
+  width: 100%;
+  text-align: center;
+  background-color: #9575cd;
+  color: #fff;
+  opacity: .8;
+  min-height: 50px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*margin-left: 25px;*/
+}
+
+
+
+
+/* -----------CONTACT US PAGE------------ */
+.jumbotron-contact {
+  /*background: url("../images/contactus_new.jpg") no-repeat;*/
+  background: url("../images/New2021/contact_jumbo_md.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.card-contact h3 {
+  background: #9575CD;
+}
+.card-contact {
+  margin-bottom: 15px;
+}
+#ContactAddress {
+  margin-bottom: 0px;
+}
+#ContactTel {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#ContactTel a {
+  margin-left: 5px;
+}
+
+
+
+@media (max-width: 575px) {
+  #Navbar li {
+    /*text-align: center;*/
+    padding-left: 15px;
+    border-bottom: 1px ridge white;
+  }
+
+  .container-last {
+    width: 80%;
+  }
+
+  #Address {
+    padding: 0px auto 30px;
+  }
+
+  .jumbotron-header {
+    /*background: url("../images/welcome2.jpg") no-repeat;*/
+    background: url("../images/New2021/home_jumbo_alt_xs.jpg") no-repeat;
+  }
+  .jumbotron-about {
+    background: url("../images/aboutus.jpg") no-repeat;
+    background-size: cover;
+  }
+  .jumbotron-contact {
+    /*background: url("../images/contactus.jpg") no-repeat;*/
+    background: url("../images/New2021/contact_jumbo_md.jpeg") no-repeat;
+    background-size: cover;
+  }
+  .jumbotron-products {
+  /*background: url("../images/products.jpg") no-repeat;*/
+  background: url("../images/New2021/products_jumbo_final.jpg") no-repeat;
+  background-size: cover;
+  }
+
+  /*#accordion span {
+    margin-left: 15px;
+  }*/
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar .container {
+    min-width: 560px;
+    padding: 0px;
+    position: relative;
+  }
+  #Navbar ul {
+    position: absolute;
+    right: 0px;
+  }
+  #Navbar li {
+    font-size: 0.90rem;
+  }
+  .jumbotron-header {
+    /*background: url("../images/welcome2.jpg") no-repeat;*/
+    background: url("../images/New2021/home_jumbo_alt.jpg") no-repeat;
+    background-size: cover;
+  }
+  .jumbotron-about {
+    background: url("../images/aboutus.jpg") no-repeat;
+    background-size: cover;
+  }
+  .jumbotron-contact {
+    /*background: url("../images/contactus_md.jpg") no-repeat;*/
+    background: url("../images/New2021/contact_jumbo_md.jpeg") no-repeat;
+    background-size: cover;
+  }
+  .jumbotron-products {
+  /*background: url("../images/products.jpg") no-repeat;*/
+  background: url("../images/New2021/products_jumbo_final.jpg") no-repeat;
+  background-size: cover;
+  }
+
+  /*#accordion span {
+    margin-left: 20px;
+  }*/
+  .haha {
+    min-height: 72px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .haha {
+    min-height: 72px;
+  }
+}
