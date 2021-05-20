@@ -8,7 +8,7 @@ $(document).ready(function() {
     	$('#WhyUsPhoto').css('opacity', 1);
   	}, { offset: 'bottom-in-view' });*/
 
-    $('#Section1Heading').waypoint(function() {
+ /*   $('#Section1Heading').waypoint(function() {
       $('#Section1').addClass('animate__fadeInUp');
       $('#Section1').css('opacity', 1);
     }, { offset: 'bottom-in-view' });
@@ -47,7 +47,7 @@ $(document).ready(function() {
       $('#AboutUsHeading').addClass('animate__fadeInDown');
       $('#AboutUsHeading').css('opacity', 1);
     }, { offset: 'bottom-in-view' });
-
+*/
 });
 
 $('#myCarousel').carousel( {interval: 3000} );
