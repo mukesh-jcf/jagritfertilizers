@@ -2,7 +2,7 @@ $(document).ready(function() {
   
 	$('[data-toggle="tooltip"]').tooltip();
 
-	$('.animate__animated').css('opacity', 0.2);
+	/*$('.animate__animated').css('opacity', 0.2);*/
 
   	/*$('#WhyUsPhoto').waypoint(function() {
     	$('#WhyUsPhoto').css('opacity', 1);
